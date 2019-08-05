@@ -3,7 +3,7 @@
     align-items:center;
     height:100vh;
     justify-content:center;
- 
+
 }
 h2, h3, h4,h5{
     text-align: center;
@@ -28,7 +28,7 @@ form{
     text-align: left;
     position: relative;
     overflow: hidden;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .field input {
@@ -49,7 +49,7 @@ form{
  #form3{
      display: none;
  }
- 
+
 .signin, .request-new-password{
 margin-top: 30px;
 }
@@ -71,7 +71,7 @@ margin-top: 30px;
     border-radius:9px;
     background-color: #fff;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.75);
-   
+
 }
 a{
     text-decoration: none;
@@ -106,7 +106,7 @@ ul.list-unstyled li {
 #sidebar ul li a:hover{
     background: #7d7d7d;
     font-weight: bold;
-} 
+}
 h2.layout{
     font-size: 2.7em;
     letter-spacing: 4px;
@@ -115,7 +115,7 @@ h2.layout{
     text-transform: capitalize;
     font-weight:lighter;
 
-} 
+}
 nav, section {
     display: block;
 }
@@ -130,7 +130,7 @@ nav, section {
 #sidebar .sidebar-header {
     padding: 10px;
     background: #fff;
-   
+
 }
 .form-control{
     box-shadow: none !important;
@@ -146,12 +146,12 @@ input::placeholder, option, .selected {
   }
   option:not(:first-of-type) {
     color: black !important;
-    
+
   }
   #content a{
       text-decoration:none;
   }
-  
+
   .inner{
       padding:30px;
   }
@@ -171,5 +171,17 @@ input::placeholder, option, .selected {
     max-width: 330px;
     padding: 15px;
     margin: auto;
- 
+
+}
+
+
+/*Sam updates*/
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    opacity: 0.3;
+    cursor: wait;
 }

@@ -8,7 +8,7 @@ export function Post(path,data) {
             headers: Token?{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': "Bearer"+" "+Token
+                'Authorization': `Bearer ${Token}`
             }:{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ export function Get(path) {
             headers: Token?{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': "Bearer"+" "+Token
+                'Authorization': `Bearer ${Token}`
             }:{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',

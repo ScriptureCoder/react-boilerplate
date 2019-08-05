@@ -1,0 +1,77 @@
+body{
+    position: relative;
+width: 1440px;
+height: 4811px;
+}
+.rectangle{
+    left: 22.64%;
+right: 67.36%;
+background: rgba(254, 140, 0, 0.2);
+mix-blend-mode: normal;
+border-radius: 18px;
+
+}
+.number{
+    height: 18vh;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+padding-left:10px;
+padding-right:10px;
+text-align: center;
+color: #FF8C00;
+}
+.text{  
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #505050 !important;
+}
+.nav-item{
+    padding:20px;
+}
+.head{
+    margin-left: 13%;
+}
+.btn-outline-info{
+border: 1px solid #555555;
+box-sizing: border-box;
+border-radius: 4px;
+color: #555555;
+
+}
+.btn-outline-info:hover{
+    color: #fff; 
+    background-color: #FF8C00 !important; 
+    border-color: #FF8C00 !important; 
+}
+.header{
+    margin-top:100px;
+    background: url(./images/jumpbotron.png)  no-repeat;
+    width:100vw;
+    height:100vh;
+    background-size: contain;
+    
+}
+.j-text{
+    color: #ffffff;
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+text-align:center;
+padding-top:150px;
+}
+.overlay{
+    background: radial-gradient(502.51px at 77.15% 78.76%, rgba(0, 0, 0, 0.192) 0%, rgba(0, 0, 0, 0.3) 100%) no-repeat;
+    background-size: contain;
+    width:100vw;
+    height:63.6vh;
+    
+
+}

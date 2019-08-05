@@ -1,15 +1,14 @@
-import { API } from "../config";
+import { API, Token } from "../config";
 
-const auth = localStorage.getItem('xse-auth');
 
 export function Post(path,data) {
     return new Promise((resolve, reject) =>{
         fetch(API+path, {
             method: 'POST',
-            headers: auth?{
+            headers: Token?{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': "Bearer"+" "+auth
+                'Authorization': "Bearer"+" "+Token
             }:{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
@@ -33,10 +32,10 @@ export function Get(path) {
 
         fetch(API+path, {
             method: 'GET',
-            headers: auth?{
+            headers: Token?{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': "Bearer"+" "+auth
+                'Authorization': "Bearer"+" "+Token
             }:{
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
